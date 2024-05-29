@@ -1,4 +1,4 @@
-module github.com/vnscriptkid/queue-fluency/golang
+module github.com/vnscriptkid/queue-fluency/golang-machinery
 
 go 1.22.1
 
