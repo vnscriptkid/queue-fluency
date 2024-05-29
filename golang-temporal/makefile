@@ -10,6 +10,12 @@ run_worker:
 run_workflow:
 	go run ./workflow/main.go
 
+run_worker_delay:
+	go run ./worker_delay/main.go
+
+run_workflow_delay:
+	go run ./workflow_delay/main.go
+
 psql:
 	docker exec -it temporal-db psql -U temporal -d temporal
 
