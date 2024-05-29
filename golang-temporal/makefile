@@ -7,6 +7,9 @@ down:
 run_worker:
 	go run ./worker/main.go
 
+run_workflow:
+	go run ./workflow/main.go
+
 psql:
 	docker exec -it temporal-db psql -U temporal -d temporal
 
