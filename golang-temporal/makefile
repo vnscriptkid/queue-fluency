@@ -13,5 +13,5 @@ psql:
 logs:
 	docker compose logs temporal -f
 
-temporal_ui:
-	open http://localhost:8088
+temporalui:
+	open http://localhost:8080
